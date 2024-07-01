@@ -191,14 +191,23 @@
     The PC Value should change depending on JUMP and Branch Type Instructions 
 ---
 #### Data Forwarding : 
-    
-
-
-
-                
----       
-## References :
+    Forwarding is a technique that is used to avoid hazards in pipelined processors
+    These occur when instruction close to each other use the same data
+    If Both the registers in the Excution and memory cycle are same i.e rs1 or rs2 == rd
+    Then get the value directly from ALU Result These methods are shown in the processor Architecture
+#### Stalling :
+    Let us consider we need to do a read operation and the cpu is doing write operation 
+    But CPU doesn't execute read and write at the same time 
+    So, We Stop the pipeline making it repeat the instruction in the next cycle until the issue gets cleared
 ---
+#### RTL BLOCKS : 
+__Generated___ __using__ __Xilinx__ __Vivado__
+##### Top Block :
+![TOP](https://github.com/SaiManojGubbala/RISC-V/assets/171187843/d5c6bf50-692d-4d99-8aaa-d025e4331e4f)
+##### RISC Block :
+![RISC](https://github.com/SaiManojGubbala/RISC-V/assets/171187843/46369895-763e-495c-8405-3899d1ad42bc)
+
+## References :
 - #### Research Papers : 
    - [RISC-V Publication](https://ijrpr.com/uploads/V5ISSUE4/IJRPR24834.pdf)
 - #### Video Tutorials :
