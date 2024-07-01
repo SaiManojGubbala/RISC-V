@@ -189,6 +189,8 @@
     Program Counter is the register which has the address of the instruction that is being executed 
     Its value increments once its instruction gets executed 
     The PC Value should change depending on JUMP and Branch Type Instructions 
+![Program Counter](https://github.com/SaiManojGubbala/RISC-V/assets/171187843/1aa7165d-3760-48fb-a004-f5fe94054f01)
+
 ---
 #### Data Forwarding : 
     Forwarding is a technique that is used to avoid hazards in pipelined processors
