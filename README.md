@@ -27,6 +27,9 @@
     - Verilog Implementation : 
       This processor uses DataPath Controller type implementation in Verilog   
 ---
+### Processor Architecture :
+![Screenshot 2024-06-22 233054](https://github.com/SaiManojGubbala/RISC-V/assets/171187843/a12e9001-813d-4f0d-ad2c-8a9f485b867e)
+---
 ## Methodology :
 ### <span style="color:Cyan">ALU</span> ( Arthemetic Logic Unit ) :
 ##### All the Arthemetic Shift and Logic Operations are done in the R-Type Instruction set So designing ALU for R-Type and using this for Other Type Instructions 
@@ -163,9 +166,6 @@
 ##### L Type Instruction Explained :
     LW  :
         RegFile[rd] = Data_Memory[Immediate_Value + RegFile[rs1]] ;
----
-### Processor Architecture :
-![Screenshot 2024-06-22 233054](https://github.com/SaiManojGubbala/RISC-V/assets/171187843/a12e9001-813d-4f0d-ad2c-8a9f485b867e)
 ---
 ### Understanding Memories :
      Register File :
