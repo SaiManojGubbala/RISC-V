@@ -1,5 +1,6 @@
 # Implementing a 32 Bit Risc-V Cpu in Verilog 
-## This is a project on implementing a 32Bit Risc-V Processor in Verilog which is following official <span style="color:Cyan">RV32I ISA (Instruction Set Architecture) </span>
+## This is a project on implementing a 32Bit Risc-V Processor in Verilog which is following official <span style="color:Cyan">RV32I ISA (Instruction Set Architecture)</span>
+### This Processor has a 5 stage Pipeline along with the Hazard Unit 
 ## Description :
     - Instruction Set :
         This is a 32 Bit Risc-V Architecture so each Instruction is of 32 Bits and
