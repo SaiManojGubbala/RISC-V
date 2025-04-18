@@ -3,6 +3,34 @@ Different methods of implementation of RISC-V ( Reduced Instruction Set Computin
 
 ## **Designing an ALU in GATE LEVEL MODELLING for R-Type Instructions in RISC-V**
 
+## The RTL for some circuitry is generated using Yosys software and is given below
+
+### **RTL Schematic of RISC-V ALU (Gate Level Modelling) **
+![Arithemetic Logic Unit](https://github.com/SaiManojGubbala/RISC-V/blob/main/alu.png)
+
+
+### **RTL Schematic of RISC-V Instruction Decoder (Gate Level Modelling) **
+![Instruction Decoder](https://github.com/SaiManojGubbala/RISC-V/blob/main/instruction_decoder.png)
+
+
+### **RTL Schematic of RISC-V Branch Circuitry (Gate Level Modelling) **
+![Branch](https://github.com/SaiManojGubbala/RISC-V/blob/main/branch.png)
+
+
+### **RTL Schematic of RISC-V Sign Extension (Gate Level Modelling) **
+![Sign Extension](https://github.com/SaiManojGubbala/RISC-V/blob/main/sign_extend.png)
+
+
+### **RTL Schematic of RISC-V PC ADD 4 (Gate Level Modelling) **
+![ADD4](https://github.com/SaiManojGubbala/RISC-V/blob/main/pc_add4.png)
+
+
+### **RTL Schematic of RISC-V PC ADD Imm(Gate Level Modelling) **
+![ADDIMM](https://github.com/SaiManojGubbala/RISC-V/blob/main/pc_addimm.png)
+
+
+
+
 The **Arithmetic Logic Unit (ALU)** is a crucial component of a processor, responsible for executing arithmetic, logical, and shift operations. This ALU is designed to support **R-Type Instructions** in **RISC-V**, handling **10 different operations**.
 
 ---
